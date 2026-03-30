@@ -18,6 +18,6 @@ The user interface is built using a **nested layout strategy** to ensure respons
 * **Dual Action Buttons:** * `btnSuggest`: Executes the logic engine.
     * `btnReset`: Flushes the current state for a fresh user experience.
 
-<img width="800" height="1000" alt="image" src="https://github.com/user-attachments/assets/1cc62375-ed0d-431d-b66b-cf5f8f3be0ac" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/1cc62375-ed0d-431d-b66b-cf5f8f3be0ac" />
 
 
