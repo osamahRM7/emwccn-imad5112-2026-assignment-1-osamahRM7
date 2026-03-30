@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5B5433"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="@string/social_sparks"
+            android:textColor="#EDE8E8"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/how_is_your_day_going_cora"
+            android:textColor="#F2E7E7"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="140dp" />
+
+        <EditText
+            android:id="@+id/timeInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:hint="@string/please_enter_a_valid_time_e_g_morning_dinner"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="12dp"
+            tools:layout_editor_absoluteX="-25dp"
+            tools:layout_editor_absoluteY="219dp" />
+
+        <Button
+            android:id="@+id/btnSuggest"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#244061"
+            android:text="@string/get_social_spark"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="317dp" />
+
+        <Button
+            android:id="@+id/btnReset"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="231dp"
+            android:layout_height="70dp"
+            android:background="#E42108"
+            android:text="@string/reset"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="-30dp"
+            tools:layout_editor_absoluteY="474dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginVertical="24dp"
+            android:textColor="#FFFFFF"
+            android:background="#E0E0E0" />
+
+        <TextView
+            android:id="@+id/suggestionText"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="-49dp"
+            tools:layout_editor_absoluteY="558dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

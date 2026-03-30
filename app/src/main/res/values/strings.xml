@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">meal box</string>
+    <string name="social_sparks">Social Sparks</string>
+    <string name="how_is_your_day_going_cora">How is your day going, Cora?</string>
+    <string name="egg_sandwich">Egg Sandwich</string>
+    <string name="apple">Apple</string>
+    <string name="rice_chicken">Rice and chicken</string>
+    <string name="nuts">Nuts</string>
+    <string name="grilled_meat">Grilled meat</string>
+    <string name="yogurt">Yogurt</string>
+    <string name="error_invalid_input">Please enter a valid time (e.g., Morning, Dinner)</string>
+    <string name="get_social_spark">Get Social Spark</string>
+    <string name="reset">Reset</string>
+    <string name="please_enter_a_valid_time_e_g_morning_dinner">Please enter a valid time (e.g., Morning, Dinner)</string>
+    <string name="meal_egg_sandwich">meal_egg_sandwich</string>
+</resources>
