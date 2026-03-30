@@ -1,4 +1,4 @@
-# emwccn-imad5112-2026-assignment-1-osamahRM7
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/3ad340a0-de6c-4cb2-afba-cd14cefecbf0" /># emwccn-imad5112-2026-assignment-1-osamahRM7
 emwccn-imad5112-2026-assignment-1-osamahRM7 created by GitHub Classroom
 
 # Social Sparks 
@@ -28,6 +28,14 @@ The backend logic focuses on **Input Sanitization** and **Decision Mapping**:
 * **Error Handling:** Includes a fallback "Else" case to catch invalid inputs and provide corrective feedback to the user.
 
 * <img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/66de3904-f65b-433e-919d-c79b3cbc6e58" />
+
+### **3. Developer Diagnostics**
+For monitoring and debugging, the app integrates the `android.util.Log` class:
+* **Debug Logs:** Track successful user inputs.
+* **Warning Logs:** Capture and record invalid entries to help refine the suggestion engine in future updates.
+
+* <img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/f828a826-f4cb-470b-ade7-aecedb39efa3" />
+
 
 
 
