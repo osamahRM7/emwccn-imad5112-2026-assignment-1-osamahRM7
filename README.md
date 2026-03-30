@@ -21,3 +21,15 @@ The user interface is built using a **nested layout strategy** to ensure respons
 <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/1cc62375-ed0d-431d-b66b-cf5f8f3be0ac" />
 
 
+### **2. Behavioral Logic (Kotlin)**
+The backend logic focuses on **Input Sanitization** and **Decision Mapping**:
+* **Data Normalization:** The app processes strings using `.trim().lowercase()` to ensure that user-end typos (like extra spaces or capitalization) do not break the logic.
+* **Control Flow:** A deterministic `if-else` structure maps six distinct timeframes (Morning, Mid-Morning, Afternoon, Mid-Afternoon, Dinner, Night) to specific social outcomes.
+* **Error Handling:** Includes a fallback "Else" case to catch invalid inputs and provide corrective feedback to the user.
+
+* <img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/66de3904-f65b-433e-919d-c79b3cbc6e58" />
+
+
+
+
+
