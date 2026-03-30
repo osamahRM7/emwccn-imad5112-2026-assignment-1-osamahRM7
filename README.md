@@ -17,3 +17,7 @@ The user interface is built using a **nested layout strategy** to ensure respons
 * **Input Field:** Uses a hint-driven `EditText` to guide user entry.
 * **Dual Action Buttons:** * `btnSuggest`: Executes the logic engine.
     * `btnReset`: Flushes the current state for a fresh user experience.
+
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/1cc62375-ed0d-431d-b66b-cf5f8f3be0ac" />
+
+
