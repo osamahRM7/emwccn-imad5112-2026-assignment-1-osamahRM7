@@ -75,5 +75,7 @@ For monitoring and debugging, the app integrates the `android.util.Log` class:
 
 ## https://youtu.be/5tsGdVj5GOM?si=jihLNz2pSvYyiSsH
 
+## https://github.com/osamahRM7/emwccn-imad5112-2026-assignment-1-osamahRM7
+
 
 
