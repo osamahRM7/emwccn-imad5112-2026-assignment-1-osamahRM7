@@ -67,5 +67,13 @@ For monitoring and debugging, the app integrates the `android.util.Log` class:
 6. Design: Follows Material Design 3 principles for spacing (24dp padding) and component styling.
 
 
+---
+
+https://youtu.be/5tsGdVj5GOM?si=jihLNz2pSvYyiSsH
+ST10477069
+OSAMAH KHALED MUBARK AL-BATATI
+
+
+
 
 
