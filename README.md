@@ -37,6 +37,34 @@ For monitoring and debugging, the app integrates the `android.util.Log` class:
 * <img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/f828a826-f4cb-470b-ade7-aecedb39efa3" />
 
 
+---
+
+##  Technical Specifications
+| Requirement | Implementation |
+| :--- | :--- |
+| **Language** | Kotlin |
+| **Minimum SDK** | API 24+ |
+| **Layout** | XML (Constraint + Linear) |
+| **Validation** | String Normalization |
+
+---
+
+##  Installation & Usage
+1. **Sync:** Open the project in Android Studio and sync the Gradle files.
+2. **Build:** Deploy the `com.example.mealbox` package to an emulator or physical device.
+3. **Input:** Type a timeframe (e.g., "dinner") into the prompt.
+4. **Interact:** Press **Get Social Spark** to receive your actionable social task.
+
+
+   
+
+## References & Standards
+1. This project was developed following the official Android Developer Documentation and Material Design guidelines.
+2. UI Layouts: Built using ConstraintLayout to provide a flat, high-performance view hierarchy.
+3. Event Handling: Implements View.OnClickListener for interactive element responses.
+4. Best Practices: * Data Normalization: Employs the String.trim() and String.lowercase() Kotlin functions to ensure robust input handling.
+5. Diagnostics: Uses the android.util.Log class for lifecycle and error monitoring in the Android Logcat.
+6. Design: Follows Material Design 3 principles for spacing (24dp padding) and component styling.
 
 
 
