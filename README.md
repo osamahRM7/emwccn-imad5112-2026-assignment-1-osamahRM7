@@ -83,7 +83,7 @@ For monitoring and debugging, the app integrates the `android.util.Log` class:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-((( NEW Reference)))
+*NEW Reference
 
 **from the first code with example from the website with link:
 
