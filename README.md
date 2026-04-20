@@ -128,7 +128,16 @@ When user clicks or taps on the button, we are just showing a Toast. You may rep
 
 (https://kotlinandroid.org/button/setonclicklistener/)  <  (Find ditels from website go to the last part of the page)
 
-6-
+6- public static int e (String tag, String msg)
+Added in API level 1
+Send an ERROR log message.
+
+Parameters
+tag	Used to identify the source of a log message. It usually identifies the class or activity where the log call occurs.
+msg	The message you would like logged.
+
+(https://www.android-doc.com/reference/android/util/Log.html)  <  (Find ditels from website go to the Public Methods in thered par of information)
+
 
 
 
