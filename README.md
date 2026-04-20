@@ -92,6 +92,11 @@ The following code needs to be invoked inside the MainActivity.kt file. Which pe
 There is one scenario, if the user left the EditText blank, it has to be checked whether it's blank or not. To check whether it is blank EditText.
 *https://www.geeksforgeeks.org/android/working-with-the-edittext-in-android/*   (Find ditels from website go to 2. Getting the data or retrieving the data entered by the user).
 
+2-Button button = (Button)findViewById(R.id.button); Add functionality of button in the MainActivity file. Here describe the operation to display a Toast message when the user taps on the button. Below is the code to carry out this task. 
+https://www.geeksforgeeks.org/android/button-in-kotlin/  (Find ditels from website go to Step 3: Accessing the button in the MainActivity file)
+
+3-
+
 
 
 
