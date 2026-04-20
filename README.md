@@ -78,4 +78,21 @@ For monitoring and debugging, the app integrates the `android.util.Log` class:
 ## https://github.com/osamahRM7/emwccn-imad5112-2026-assignment-1-osamahRM7
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+((( NEW Reference)))
+
+**from the first code with example from the website with link:
+
+1- val editText: EditText = findViewById(R.id.editText)
+The following code needs to be invoked inside the MainActivity.kt file. Which performs the retrieving operation and provides the Toast message the same as the entered data.
+There is one scenario, if the user left the EditText blank, it has to be checked whether it's blank or not. To check whether it is blank EditText.
+*https://www.geeksforgeeks.org/android/working-with-the-edittext-in-android/*   (Find ditels from website go to 2. Getting the data or retrieving the data entered by the user).
+
+
+
+
 
