@@ -87,20 +87,50 @@ For monitoring and debugging, the app integrates the `android.util.Log` class:
 
 **from the first code with example from the website with link:
 
+
 1- val editText: EditText = findViewById(R.id.editText)
 The following code needs to be invoked inside the MainActivity.kt file. Which performs the retrieving operation and provides the Toast message the same as the entered data.
 There is one scenario, if the user left the EditText blank, it has to be checked whether it's blank or not. To check whether it is blank EditText.
-*https://www.geeksforgeeks.org/android/working-with-the-edittext-in-android/*   (Find ditels from website go to 2. Getting the data or retrieving the data entered by the user).
+(https://www.geeksforgeeks.org/android/working-with-the-edittext-in-android/)  < (Find ditels from website go to 2. Getting the data or retrieving the data entered by the user).
+
 
 2-Button button = (Button)findViewById(R.id.button); Add functionality of button in the MainActivity file. Here describe the operation to display a Toast message when the user taps on the button. Below is the code to carry out this task. 
-https://www.geeksforgeeks.org/android/button-in-kotlin/  (Find ditels from website go to Step 3: Accessing the button in the MainActivity file)
+(https://www.geeksforgeeks.org/android/button-in-kotlin/) < (Find ditels from website go to Step 3: Accessing the button in the MainActivity file)
+
 
 3- button.setOnClickListener {
       Toast.makeText(applicationContext,"You clicked Submit Button.",Toast.LENGTH_SHORT).show()
    When user clicks or taps on the button, we are just showing a Toast. You may replace this with your own code as required.
-   https://kotlinandroid.org/button/setonclicklistener/     (you will find the detiles in the last cod in website)
+   (https://kotlinandroid.org/button/setonclicklistener/)    < (you will find the detiles in the last cod in website)
 
-  4- 
+
+
+4- Use else if to specify a new condition if the first condition is false.
+
+Syntax
+if (condition1) {
+  // block of code to be executed if condition1 is true
+} else if (condition2) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  // block of code to be executed if the condition1 is false and condition2 is false
+}
+
+(https://www.w3schools.com/kotlin/kotlin_conditions.php) < (Find ditels from website go to Kotlin else if)
+
+5-        val button = findViewById<Button>(R.id.button_id)
+        button.setOnClickListener {
+            Toast.makeText(applicationContext,"You clicked Submit Button.",Toast.LENGTH_SHORT).show()
+
+   In the kotlin file, we will set the Button’s setOnClickListener() function in MainActivity’s onCreate() function. We shall set the content view for the activity with the layout file, and then set the action listener for button.
+
+When user clicks or taps on the button, we are just showing a Toast. You may replace this with your own code as required.
+
+(https://kotlinandroid.org/button/setonclicklistener/)  <  (Find ditels from website go to the last part of the page)
+
+6-
+
+
 
 
 
