@@ -95,7 +95,13 @@ There is one scenario, if the user left the EditText blank, it has to be checked
 2-Button button = (Button)findViewById(R.id.button); Add functionality of button in the MainActivity file. Here describe the operation to display a Toast message when the user taps on the button. Below is the code to carry out this task. 
 https://www.geeksforgeeks.org/android/button-in-kotlin/  (Find ditels from website go to Step 3: Accessing the button in the MainActivity file)
 
-3-
+3- button.setOnClickListener {
+      Toast.makeText(applicationContext,"You clicked Submit Button.",Toast.LENGTH_SHORT).show()
+   When user clicks or taps on the button, we are just showing a Toast. You may replace this with your own code as required.
+   https://kotlinandroid.org/button/setonclicklistener/     (you will find the detiles in the last cod in website)
+
+  4- 
+
 
 
 
